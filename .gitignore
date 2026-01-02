@@ -1,0 +1,11 @@
+.claude-dev-helper/
+.continue/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+.DS_Store
