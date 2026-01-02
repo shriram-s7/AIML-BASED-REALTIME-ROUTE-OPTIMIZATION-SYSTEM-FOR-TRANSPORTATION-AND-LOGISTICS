@@ -1,11 +1,25 @@
-.claude-dev-helper/
-.continue/
+# Python
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+
+# Virtual env
+venv/
+.venv/
+
+# Frontend
 node_modules/
 dist/
 build/
+
+# AI / tooling
+.claude-dev-helper/
+.continue/
+
+# OS / editor
+.DS_Store
 .vscode/
 .idea/
-.DS_Store
+
+# Env secrets
+.env
+.env.*
